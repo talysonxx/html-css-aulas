@@ -1,0 +1,31 @@
+---- IMAGENS SEM DIREITOS AUTORAIS ----
+pexels.com - pra imagens sem direitos autorais
+unsplash.com - ""
+gimp - usado para modificar imagens gratuitamente
+JPEG - melhor formato de compactação de imagens
+PNG - permite transparência
+
+---- ICONS de favoritos ----
+iconarchive.com - buscar icons
+favicon.cc  - para desenhar
+favicon.io - para transformar em icon
+
+---- EXTENSÕES ----
+portuguese
+word wrap - on
+theme - dark
+salvamento automático
+discord presence
+html preview
+vscode-icons
+
+---- CHROME OFFLINE ----
+link/?standalone=1
+
+---- CONVERTOR DE VÍDEOS ----
+handbroke
+
+---- PALETA DE CORES ----
+adobecolor (color.adobe.com)
+paletton.com
+coolors

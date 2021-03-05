@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="fundo-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="fundo-m.png" type="image/png"> <!-- se a tela do dispositivo for menor que 1000 carrega a fundo-m.png-->
+        <img src="fundo-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Áudios</h1>
+     <!--<audio src="audio-teste.mp3" controls>RapMistake</audio>-->
+     <audio preload="metadata" controls>
+        <source src="audio-teste.mp3" type="audio/mpeg">
+        <source src="audio-teste.wav" type="audio/wav">
+        <source src="audio-teste.ogg" type="audio/ogg">
+        <p>F, deu certo não. Baixe o mp3 <a href="audio-teste.mp3" download="audio-teste" target="_self">aqui</a></p>
+     </audio>
+</body>
+</html>
