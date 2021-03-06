@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.container {
+    background-color: red;
+    padding: 5px;
+    border: 5px solid blue;
+    margin: 10px;
+}
+
+.content {
+    background-color: gray;
+    border: 5px solid green; /* outline */
+    margin: 5px;
+    padding: 5px;
+}
+
+.square {
+    /* tamanho total: widht + height + border(1px) */
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 10px solid black;
+    padding: 30px;
+    box-sizing: border-box; /* independente do tamanho de tudo, não vai ultrapassar os 100px */
+}
+
+.square2 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}

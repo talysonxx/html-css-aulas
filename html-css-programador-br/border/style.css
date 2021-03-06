@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.borda {
+    border-width: 2px 40px 20px 60px;
+    border-style: solid;
+    /*border-top-color: gray;*/
+    border-color: gray green yellow blue;
+    /* cima, direita, baixo e esquerda */
+    border-radius: 50%;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+}
