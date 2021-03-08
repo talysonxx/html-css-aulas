@@ -29,3 +29,14 @@ handbroke
 adobecolor (color.adobe.com)
 paletton.com
 coolors
+
+---- FONTES ----
+busque fontes no fonts.google.com
+element.envato.com/fonts
+formatos: TTF/OTF, WOFF
+para fontes externas
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+font squirrel - transforma fonts para formato woff (que são mais leves)

@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+p {
+    /*text-transform: capitalize;
+    /* espaçamento entre as letras 
+    letter-spacing: -1.2px;
+    /* altura das linhas 
+    line-height: 500%;
+    /* espaçamento entre as palavras 
+    word-spacing: 5px;
+    /* 2px pra direitra, 2px pra baixo e 5px de raio de espalhamento 
+    text-shadow: 2px 2px 5px red;*/
+
+    /* se a primeira não carregar, vai na segunda. uso das aspas pois o nome da fonte tem mais de uma palavra */
+    font-family: Helvetica, arial, sans-serif;
+    font-style: italic;
+    word-spacing: 10px;
+    line-height: 20px;
+    /* negrito */
+    font-weight: 900;
+    /* deixa tudo maiúscula, mas mantém a diferença de tamanho entre as maiúsculas originais */
+    font-variant: small-caps;
+}
+
+h1 {
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+/*
+    Fontes externas (download)
+    @font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+    }
+*/
