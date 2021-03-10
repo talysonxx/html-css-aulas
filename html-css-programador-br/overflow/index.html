@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        body {
+            font-size: 1.2rem;
+        }
+        #container {
+            color: red;
+            background-color: blue;
+            width: 300px;
+            height: 100px;
+            /* esconde a parte do conteúdo que passa dos limites da div
+            overflow: hidden;*/
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- OVERFLOW: temos um conteúdo dentro de um elemento, mas esse conteúdo é maior que o elemento -->
+    <div id="container">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, saepe accusamus nam, voluptatem dicta deleniti dolorem tempore, esse dolor modi enim. Architecto repellat saepe vel, magni temporibus ipsum. Facilis, aliquam.
+    </div>
+</body>
+</html>

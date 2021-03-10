@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .static {
+            position: static;
+        }
+
+        .relative {
+            position: relative;
+            /*top: 15px;
+            left: 20px;*/
+        }
+
+        .quadrado {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+
+        .bg-red {
+            background-color: red;
+        }
+
+        .bg-blue {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- FIXED e RELATIVE diferenças: fixed é em relação a janela, relative a posição inicial do objeto. 
+    ABSOLUTE é em relação ao pai, pode ser body, por exemplo, o elemento pai não pode ser static 
+    STICKY top:0 a figurina não pode ficar com menos de 0 de distância do top -->
+    <div class="static quadrado bg-blue">
+
+    </div>
+
+    <div class="relative quadrado bg-red">
+    </div>
+</body>
+</html>

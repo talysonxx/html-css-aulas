@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-size: 80px;
+        }
+
+        div {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+
+        #bg-red-relative {
+            background-color: red;
+            position: relative; /* relative: em relação a posição inicial*/
+            top: 50px;
+            right: 10px;
+        }
+
+        #bg-blue-absolute {
+            background-color: blue;
+            position: absolute; /* em relação ao pai, no caso, body */
+            top: 50px;
+        }
+
+        #bg-green-fixed {
+            background-color: green;
+            position: fixed;
+            top: 20px;
+        }
+
+        #bg-purple-sticky {
+            background-color: purple;
+            position: sticky;
+            bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="bg-red-relative"></div>
+
+    <div id="bg-blue-absolute"></div>
+
+    <div id="bg-green-fixed"></div>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta autem possimus aperiam? At corporis temporibus fugit reprehenderit libero atque voluptatem omnis quibusdam repellendus assumenda tempora et aperiam, ipsa inventore deleniti!</p>
+
+    <div id="bg-purple-sticky"></div>
+
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tenetur, autem repellendus odit unde quod voluptatum eveniet ut ipsa, temporibus iusto inventore blanditiis, officia quo minima neque consequuntur reiciendis itaque!
+</body>
+</html>
