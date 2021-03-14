@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        img {
+            float: left; /* vai ficar flutuando do lado esquerdo do próximo elemento */
+            border: 2px solid red;
+        }
+
+        p {
+            /*clear: left; /* quero nada flutuando do lado esquerdo */
+        }
+
+        div {
+            border: 1px solid black;
+            overflow: auto; /* mesmo fora da div, ele ia ficar dentro dela*/
+            background-color: rgba(128, 128, 128, 0.26);
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            float: right;
+            background-color: rgba(128, 128, 128, 0.651);
+            margin: 10px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="../../../../../wallpapers/python-logo.png" alt="Python Logo" width="200px">
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at tempora vero accusamus eligendi repudiandae, ducimus ipsum dolore voluptatem, quia voluptatibus modi accusantium temporibus iste excepturi perferendis provident omnis ullam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, velit ullam tempore quisquam vitae ducimus iste nisi et modi, qui, unde quae repudiandae reprehenderit officia exercitationem fugiat temporibus. Atque, magnam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non qui nobis quod incidunt, natus facere doloremque in quisquam corporis rerum eligendi eum, itaque harum sunt voluptatibus similique, iste nostrum perferendis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae dolore ducimus libero deserunt adipisci culpa officiis porro nisi, velit error ipsa at optio voluptatibus minima. Amet provident quam voluptates dolor.
+        </p>
+    </div>
+
+    <ul>
+        <li>Contato</li>
+        <li>Cursos</li>
+        <li>Home</li>
+    </ul>
+</body>
+</html>

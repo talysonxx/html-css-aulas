@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #div-pai {
+            height: 100px;
+            width: 80%;
+            background-color: rgba(86, 86, 150, 0.295);
+            margin: 0 auto;
+            position: relative;
+        }
+
+        #div-filha {
+            height: 50%;
+            width: 50%;
+            background-color: rgba(173, 67, 67, 0.363);
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            line-height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="div-pai">
+        <div id="div-filha">
+            Talyson André Alves
+        </div>
+    </div>
+</body>
+</html>
