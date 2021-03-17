@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Módulo Intermediário HTML</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid black;
+            width: 60%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form method="POST" action="#">
+            <input type="text" name="email" id="">
+            <br>
+            <input type="text" name="nome">
+            <br>
+            <input type="submit" value="Mandar">
+            <br>
+            <input type="password" name="senha">
+            <br>
+            <input type="checkbox" name="termos de uso" required>Termos de uso
+            <br>
+            <input type="checkbox" name="curso" value="1">React Js
+            <br>
+            <input type="checkbox" name="curso" value="2">Java Js
+            <br>
+            <input type="radio" name="genero" value="homi" checked>Homem
+            <br>
+            <input type="radio" name="genero" value="muie">Mulher
+            <br>
+            <input type="reset" value="Limpar">
+
+            <!--
+                tag size="5"
+            -->
+            <select name="estado" id="" multiple>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="pa" selected>Pará</option>
+                <option value="bh">Bahia</option>
+                <option value="bh">Bahia</option>
+                <option value="bh">Bahia</option>
+                <option value="bh">Bahia</option>
+                <option value="bh">Bahia</option>
+                <option value="bh">Bahia</option>
+            </select>
+            <br>
+            <input type="text" name="Assunto">
+            <br>
+            <textarea name="sobre_voce" id="" cols="30" rows="10"></textarea>
+
+            <!-- novos inputs, HTML5 (verifique se os navegadores são compatíveis) -->
+            <br>
+            <input type="color" name="cor">
+            <br>
+            <input type="date" name="data" max="2018-12-31" min="2010-12-31">
+            <br>
+            <input type="datetime-local">
+            <br>
+            <!-- ao enviar arquivo, método precisa ser post -->
+            <input type="file" name="arquivo">
+            <br>
+            <input type="number" name="numérico" min="5" max="10">
+            <br>
+            <input type="range" min="5" max="10" name="intervalo" value="6">
+            <br>
+
+            <input type="tel" name="telefone">
+            <br>
+            <input type="email" name="email">
+            <br>
+
+        </form>
+    </div>
+</body>
+</html>

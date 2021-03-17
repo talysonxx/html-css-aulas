@@ -1,6 +1,7 @@
 ---- IMAGENS SEM DIREITOS AUTORAIS ----
 pexels.com - pra imagens sem direitos autorais
 unsplash.com - ""
+envatomarker
 gimp - usado para modificar imagens gratuitamente
 JPEG - melhor formato de compactação de imagens
 PNG - permite transparência
@@ -40,3 +41,9 @@ para fontes externas
   src: url(sansation_light.woff);
 }
 font squirrel - transforma fonts para formato woff (que são mais leves)
+
+---- TAGS QUE OS NAVEGADORES SUPORTAM ----
+caniuse.com (can I use)
+
+---- INFORMAÇÕES DO SITE ----
+similarweb.com
