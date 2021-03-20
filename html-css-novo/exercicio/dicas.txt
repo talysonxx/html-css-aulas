@@ -47,3 +47,11 @@ caniuse.com (can I use)
 
 ---- INFORMAÇÕES DO SITE ----
 similarweb.com
+
+---- DOMÍNIOS ----
+tracert nomedosite.com
+registro.br
+super domínios
+
+---- HOSPEDAGENS ----
+hostgator
