@@ -58,3 +58,7 @@ hostgator
 
 ---- EXTRAS ----
 mailchimp
+
+---- TEXTAREA ----
+para não ultrapassar defina
+resize: none, ou max-width e height
