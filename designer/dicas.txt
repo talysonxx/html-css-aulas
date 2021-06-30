@@ -1,0 +1,17 @@
+pares de fontes: fontpair.co/
+enviar fonte para upload: fontsquirrel.com/
+
+
+display: flex 
+flex-direction: row
+flex-wrap: wrap
+flex-flow: row wrap
+justify-content: center
+align-items: center
+-------------------------
+aplicadas nas tags filhas
+order: 1 = ordem de aparição do elemento
+flex-basis = tamanho do elemento
+flex-grow 1 = ocupa tamanho livre
+flex-shrink: 1 = fazer o elemento caber todo no container, caso ele esteja pra fora
+align-self <> align-items só que muda somente um elemento
