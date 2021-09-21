@@ -1,0 +1,86 @@
+/* para criar a animação
+1° - crir a animação
+2° - dizer qual propriedade vai mudar
+3° - quanto tempo
+*/
+/* @keyframes mostrarConteudo {
+  from {
+    height: 0;
+    background-color: white;
+  }
+  50% {
+    height: 0;
+  }
+  100% {
+    height: 100vh;
+    background-color: black;
+  }
+}
+@keyframes mudarCor {
+  from {
+    background-color: red;
+    width: 10%;
+  }
+  50% {
+    background-color: aqua;
+    width: 50%;
+  }
+  to {
+    background-color: blue;
+    width: 100%;
+  }
+} */
+@keyframes move {
+  from {
+    left: 0;
+  }
+  to {
+    left: 300px;
+  }
+  
+}
+.container .box {
+  position: relative;
+  height: 200px;
+  width: 300px;
+  /* background-color: blue; */
+  /* short hand */
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+  animation-name: move;
+  border: 1px solid black;
+  animation-duration: 3s;
+  /* tempo negativo, é como já se tivesse passado um segundo logo quando a página for carregada */
+  /* animation-delay: -1s; */
+  /* numero de vezes que repete */
+  /* animation-iteration-count: 1; */
+  /* animation-direction: reverse; */
+  /* backwards precisa do delay positivo */
+  animation-fill-mode: forwards;
+  /* define a velocidade da animação  */
+  animation-timing-function: ease-in-out;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  transition-property: background-color, padding;
+  transition-duration: 0.3s, 1s;
+  transition-delay: 0.2s;
+  transition-timing-function: ease;
+  /* short hand */
+  transition: property time delay;
+ }
+ /* .content {
+   animation-name: mostrarConteudo;
+   animation-duration: 5s;
+
+   height: 100vh;
+   background-color: black;
+   
+ } */
+.box:hover {
+  background-color: brown;
+  padding: 10px;
+}
