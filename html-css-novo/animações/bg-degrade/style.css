@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@keyframes changeBgColor {
+  from {
+    background-position: 0 50%;
+  }
+  to {
+    background-position: 100% 50%;
+  }
+}
+
+.box {
+  animation: changeBgColor 10s ease alternate infinite;
+  font-size: 4rem;
+  font-family: Yu Gothic;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(-45deg, #A63F48, #07418C, #194973, #F2AE2E, #F2A341);
+  background-size: 250% 150%;
+}
